@@ -1,0 +1,9 @@
+@baseUrl = http://localhost:8888
+
+// create todo item
+POST {{baseUrl}}/api/create
+content-type: application/json
+
+{ 
+    "text": "Save the world"
+}
